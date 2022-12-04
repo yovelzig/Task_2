@@ -31,7 +31,7 @@ void path_exist(int arr[10][10], int i, int j)
 {    
     if(arr[i][j]!=0)
     {
-        printf("True");
+        printf(" im True");
     }
     else
     {
