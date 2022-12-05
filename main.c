@@ -11,7 +11,6 @@ int main()
     if (c == 'A')
     {
       get_matrix(mat);
-      algo(mat);
     }
     else if (c == 'B')
     {
