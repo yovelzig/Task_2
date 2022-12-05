@@ -16,13 +16,11 @@ int main()
     {
       scanf("%d%d", &x, &y);
       path_exist(mat, x, y);
-      printf("\n");
     }
     else if (c == 'C')
     {
       scanf("%d%d", &x, &y);
       shortest_path(mat, x, y);
-      printf("\n");
     }
     scanf("%c", &c);
   }
