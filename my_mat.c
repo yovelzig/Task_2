@@ -31,21 +31,21 @@ void path_exist(int arr[10][10], int i, int j)
 {    
     if(arr[i][j]!=0)
     {
-        printf(" im True");
+        printf("True\n");
     }
     else
     {
-        printf("False");
+        printf("False\n");
     }
 }
 void shortest_path( int arr[10][10],int i, int j)
 {  
     if(arr[i][j]!=0)
     {
-        printf("%d",arr[i][j]);
+        printf("%d\n",arr[i][j]);
     }
     else
     {
-        printf("-1");
+        printf("-1\n");
     }
 }
